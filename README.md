@@ -1,36 +1,79 @@
-# Next
+# Netflix Clone
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+> A minimalistic clone of the netflix app built with NextJS
 
-## Getting Started
+<!-- TODO: add codacy badge -->
 
-First, run the development server:
+## Table of Content
+
+- [Project Info](#project-info)
+- [Quick Start](#quick-start)
+- [Contributing](#contributing)
+- [License](#license)
+- [About Me](#about-me)
+- [Create Next App](#create-next-app)
+
+## Project Info
+
+### Project Overview
+
+Users are able to:
+
+- login with magic passwordless authentication
+- like and dislike movies
+- add movies to my list
+- watch movies
+
+### Why this project?
+
+- To solidify my understanding of core concepts of Next.js while giving me a chance to express my skills.
+
+### App Architecture
+
+- Application’s code is structured and organized in a logical way, and components are modular and reusable.
+- Videos are supplied from YouTube API
+- User authentication is handled using Magic Link
+- User data is maintained using Hasura GraphQL API
+
+> Node version used: v.18+
+
+### Quick Start
+
+#### Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
+git clone https://github.com/amjedidiah/netflix-clone
+cd netflix-clone
+yarn install
+yarn start    
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Usage
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Refer to [Project Overview](#project-overview)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Contributing
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Please see [CONTRIBUTING.md](/CONTRIBUTING.md) for details.
 
-## Learn More
+### License
 
-To learn more about Next.js, take a look at the following resources:
+This copy of `netflix-clone` is Copyright © 2023 Jedidiah Amaraegbu.
+It is free, and may be redistributed under the terms specified in the [LICENSE](/LICENSE) file
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### About Me
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+I am Jedidiah Amaraegbu.
 
-## Deploy on Vercel
+I am proficient in developing, testing, debugging, integrating and maintaining accessible web applications and APIs. My focus is on producing quality code that is readable, maintainable, secure, and scalable.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+I have a strong background in web development, having started learning about it in school, as far back as 2015. However, I battled with imposter syndrome and how to combine it with my studies for a long time, until around 2019, when I won the bronze and gold medals at the Regional and National iCreate Skills festival.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Since then, I have continued to expand my skills and knowledge by tutoring web development in 3 African countries with Andela and Go My Code. I also enjoy sharing my expertise by speaking at tech events.
+In addition to my technical abilities, I enjoy meeting and interacting with new people.
+
+Currently, I am a Software Engineer at Remotebase, where I contribute my skills and experience to some of the best companies in Silicon Valley.
+
+### Create Next App
+
+This project was bootstrapped with Create Next App.
