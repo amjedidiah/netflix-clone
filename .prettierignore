@@ -1,0 +1,11 @@
+.next
+node_modules
+.env.local
+.eslintrc.json
+.gitignore
+.prettierrc
+next-env.d.ts
+next.config.js
+package.json
+README.md
+tsconfig.json

@@ -1,0 +1,38 @@
+.card {
+  margin-right: 0.25rem /* 4px */;
+  cursor: pointer;
+
+  .img-holder {
+    position: relative;
+    display: inline-block;
+
+    &.sm {
+      width: 300px;
+      min-width: 300px;
+      height: 170px;
+      min-height: 170px;
+    }
+
+    &.md {
+      width: 158px;
+      min-width: 158px;
+      height: 280px;
+      min-height: 280px;
+    }
+
+    &.lg {
+      width: 218px;
+      min-width: 218px;
+      height: 434px;
+      min-height: 434px;
+    }
+
+    .card-img {
+      border-radius: 0.375rem /* 6px */;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+      max-width: 100%;
+    }
+  }
+}
