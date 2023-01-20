@@ -2,7 +2,7 @@
 
 > A minimalistic clone of the netflix app built with NextJS
 
-<!-- TODO: add codacy badge -->
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/d7e68cc1122a4b438ad8240d157101f1)](https://www.codacy.com/gh/amjedidiah/netflix-clone/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=amjedidiah/netflix-clone&amp;utm_campaign=Badge_Grade)
 
 ## Table of Content
 
